@@ -41,6 +41,7 @@ async function startEc2Instance(label, githubRegistrationToken) {
           VolumeSize: 300,
           Iops: 10000,
           Throughput: 500,
+          VolumeType: 'gp3',
         },
       },
     ],
